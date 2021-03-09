@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: fantasy;
+    
+}
+    
+
+a
+{
+    position:relative;
+    display:inline block ;
+    padding: 15px 30px;
+    color: lawngreen;
+    text-decoration-color:seagreen ;
+    letter- spacing :4px;
+    font-size:24px;
+    transition:0.2s;
+
+}
+a:hover
+{
+    color:teal;
+    box-shadow: 0 0 10px  tomato;
+    transition-delay:1s;
+    transform-style:flat ;
+
+}
